@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'More.dart'; // import halaman more
+import 'more.dart'; // import halaman more
 
 void main() {
   runApp(const MyApp());
@@ -46,7 +46,7 @@ class ProfilePage extends StatelessWidget {
                 padding:
                     const EdgeInsets.symmetric(vertical: 20, horizontal: 16),
                 decoration: BoxDecoration(
-                  color: Colors.amber.shade200.withOpacity(0.9), // semi transparan
+                  color: Colors.amber.shade200, // semi transparan
                   borderRadius: BorderRadius.circular(20),
                 ),
                 child: Column(
